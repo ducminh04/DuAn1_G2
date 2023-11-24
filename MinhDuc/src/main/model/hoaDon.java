@@ -13,25 +13,34 @@ import java.util.Date;
 public class hoaDon {
 
     private int id_hoaDon;
-    private String ma;
-    private double tongTien;
-    private Date ngayTao;
-    private String trangThai;
-    private String ghiChu;
+    private String maHoaDon;
+    private double tongTienHoaDon;
+    private String maNhanVien;
+    private String tenNhanVien;
+    private String maKhachHang;
+    private String tenKhachHang;
+    private Date ngayTaoHoaDon;
+    private String trangThaiHoaDon;
+    private String ghiChuHoaDon;
     private String hinhThucThanhToan;
     private int id_khachHang;
     private int id_NhanVien;
+    private String sdtKH;
 
     public hoaDon() {
     }
 
-    public hoaDon(int id_hoaDon, String ma, double tongTien, Date ngayTao, String trangThai, String ghiChu, String hinhThucThanhToan, int id_khachHang, int id_NhanVien) {
+    public hoaDon(int id_hoaDon, String maHoaDon, double tongTienHoaDon, String maNhanVien, String tenNhanVien, String maKhachHang, String tenKhachHang, Date ngayTaoHoaDon, String trangThaiHoaDon, String ghiChuHoaDon, String hinhThucThanhToan, int id_khachHang, int id_NhanVien, String sdtKH) {
         this.id_hoaDon = id_hoaDon;
-        this.ma = ma;
-        this.tongTien = tongTien;
-        this.ngayTao = ngayTao;
-        this.trangThai = trangThai;
-        this.ghiChu = ghiChu;
+        this.maHoaDon = maHoaDon;
+        this.tongTienHoaDon = tongTienHoaDon;
+        this.maNhanVien = maNhanVien;
+        this.tenNhanVien = tenNhanVien;
+        this.maKhachHang = maKhachHang;
+        this.tenKhachHang = tenKhachHang;
+        this.ngayTaoHoaDon = ngayTaoHoaDon;
+        this.trangThaiHoaDon = trangThaiHoaDon;
+        this.ghiChuHoaDon = ghiChuHoaDon;
         this.hinhThucThanhToan = hinhThucThanhToan;
         this.id_khachHang = id_khachHang;
         this.id_NhanVien = id_NhanVien;
@@ -45,44 +54,84 @@ public class hoaDon {
         this.id_hoaDon = id_hoaDon;
     }
 
-    public String getMa() {
-        return ma;
+    public String getMaHoaDon() {
+        return maHoaDon;
     }
 
-    public void setMa(String ma) {
-        this.ma = ma;
+    public void setMaHoaDon(String maHoaDon) {
+        this.maHoaDon = maHoaDon;
     }
 
-    public double getTongTien() {
-        return tongTien;
+    public double getTongTienHoaDon() {
+        return tongTienHoaDon;
     }
 
-    public void setTongTien(double tongTien) {
-        this.tongTien = tongTien;
+    public void setTongTienHoaDon(double tongTienHoaDon) {
+        this.tongTienHoaDon = tongTienHoaDon;
     }
 
-    public Date getNgayTao() {
-        return ngayTao;
+    public String getMaNhanVien() {
+        return maNhanVien;
     }
 
-    public void setNgayTao(Date ngayTao) {
-        this.ngayTao = ngayTao;
+    public void setMaNhanVien(String maNhanVien) {
+        this.maNhanVien = maNhanVien;
     }
 
-    public String getTrangThai() {
-        return trangThai;
+    public String getTenNhanVien() {
+        return tenNhanVien;
     }
 
-    public void setTrangThai(String trangThai) {
-        this.trangThai = trangThai;
+    public void setTenNhanVien(String tenNhanVien) {
+        this.tenNhanVien = tenNhanVien;
     }
 
-    public String getGhiChu() {
-        return ghiChu;
+    public String getMaKhachHang() {
+        return maKhachHang;
     }
 
-    public void setGhiChu(String ghiChu) {
-        this.ghiChu = ghiChu;
+    public void setMaKhachHang(String maKhachHang) {
+        this.maKhachHang = maKhachHang;
+    }
+
+    public String getTenKhachHang() {
+        return tenKhachHang;
+    }
+
+    public void setTenKhachHang(String tenKhachHang) {
+        this.tenKhachHang = tenKhachHang;
+    }
+
+    public String getSdtKH() {
+        return sdtKH;
+    }
+
+    public void setSdtKH(String sdtKH) {
+        this.sdtKH = sdtKH;
+    }
+
+    public Date getNgayTaoHoaDon() {
+        return ngayTaoHoaDon;
+    }
+
+    public void setNgayTaoHoaDon(Date ngayTaoHoaDon) {
+        this.ngayTaoHoaDon = ngayTaoHoaDon;
+    }
+
+    public String getTrangThaiHoaDon() {
+        return trangThaiHoaDon;
+    }
+
+    public void setTrangThaiHoaDon(String trangThaiHoaDon) {
+        this.trangThaiHoaDon = trangThaiHoaDon;
+    }
+
+    public String getGhiChuHoaDon() {
+        return ghiChuHoaDon;
+    }
+
+    public void setGhiChuHoaDon(String ghiChuHoaDon) {
+        this.ghiChuHoaDon = ghiChuHoaDon;
     }
 
     public String getHinhThucThanhToan() {
@@ -109,4 +158,11 @@ public class hoaDon {
         this.id_NhanVien = id_NhanVien;
     }
 
+    @Override
+    public String toString() {
+        return "hoaDon{" + "id_hoaDon=" + id_hoaDon + ", maHoaDon=" + maHoaDon + ", tongTienHoaDon=" + tongTienHoaDon + ", maNhanVien=" + maNhanVien + ", tenNhanVien=" + tenNhanVien + ", maKhachHang=" + maKhachHang + ", tenKhachHang=" + tenKhachHang + ", ngayTaoHoaDon=" + ngayTaoHoaDon + ", trangThaiHoaDon=" + trangThaiHoaDon + ", ghiChuHoaDon=" + ghiChuHoaDon + ", hinhThucThanhToan=" + hinhThucThanhToan + ", id_khachHang=" + id_khachHang + ", id_NhanVien=" + id_NhanVien + ", sdtKH=" + sdtKH + '}';
+    }
+
+
+    
 }

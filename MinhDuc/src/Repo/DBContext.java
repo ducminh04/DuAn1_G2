@@ -18,8 +18,8 @@ import java.util.logging.Logger;
 public class DBContext {
 
     public static String USER = "sa";
-    public static String PASSWORD = "0334921271";
-    public static String URL = "jdbc:sqlserver://localhost:1433;databaseName=TheBrim;encrypt=true;trustServerCertificate=true;";
+    public static String PASSWORD = "duc123456";
+    public static String URL = "jdbc:sqlserver://localhost:1433;databaseName=TheBrim1;encrypt=true;trustServerCertificate=true;";
 
     static {
         try {

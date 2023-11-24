@@ -9,19 +9,29 @@ package main.model;
  *
  * @author HP
  */
-public class PhanQuyen {
+public class TaiKhoan_model {
 
+    private int id_taikhoan;
     private String tenDangNhap;
     private String matKhau;
-    private String vaiTro;
+    private boolean vaiTro;
 
-    public PhanQuyen() {
+    public TaiKhoan_model() {
     }
 
-    public PhanQuyen(String tenDangNhap, String matKhau, String vaiTro) {
+    public int getId_taikhoan() {
+        return id_taikhoan;
+    }
+
+    public void setId_taikhoan(int id_taikhoan) {
+        this.id_taikhoan = id_taikhoan;
+    }
+
+    public TaiKhoan_model(int id_taikhoan, String tenDangNhap, String matKhau, boolean vaiTro) {
         this.tenDangNhap = tenDangNhap;
         this.matKhau = matKhau;
         this.vaiTro = vaiTro;
+        this.id_taikhoan = id_taikhoan;
     }
 
     public String getTenDangNhap() {
@@ -40,20 +50,20 @@ public class PhanQuyen {
         this.matKhau = matKhau;
     }
 
-    public String getVaiTro() {
+    public boolean getVaiTro() {
         return vaiTro;
     }
 
-    public void setVaiTro(String vaiTro) {
+    public void setVaiTro(boolean vaiTro) {
         this.vaiTro = vaiTro;
     }
 
     @Override
     public String toString() {
-        return "PhanQuyen{" + "tenDangNhap=" + tenDangNhap + ", matKhau=" + matKhau + ", vaiTro=" + vaiTro + '}';
+        return "TaiKhoan{" + "id_taikhoan=" + id_taikhoan + ", tenDangNhap=" + tenDangNhap + ", matKhau=" + matKhau + ", vaiTro=" + vaiTro + '}';
     }
 
-    Object[] toDataRow() {
-        return new Object[]{this.tenDangNhap, this.matKhau, this, vaiTro};
-    }
+
+
+ 
 }
