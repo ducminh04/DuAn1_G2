@@ -3,9 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/HP/Documents/GitHub/duan1/DuAn1_G2/MinhDuc/src/main/view/TaiKhoan.java</file>
             <file>file:/C:/Users/HP/Documents/GitHub/duan1/DuAn1_G2/MinhDuc/src/main/model/nhanVien.java</file>
             <file>file:/C:/Users/HP/Documents/GitHub/duan1/DuAn1_G2/MinhDuc/src/main/service/TaiKhoan_service.java</file>
+=======
+            <file>file:/C:/Users/Admin/Documents/GitHub/DuAn1_G2/MinhDuc/src/main/view/HoaDon.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/DuAn1_G2/MinhDuc/src/main/view/Main_Fr.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/DuAn1_G2/MinhDuc/src/Repo/DBContext.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/DuAn1_G2/MinhDuc/src/main/view/DangNhap.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/DuAn1_G2/MinhDuc/src/main/view/NhanVien.java</file>
+>>>>>>> main
         </group>
     </open-files>
 </project-private>
